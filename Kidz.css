@@ -1,0 +1,174 @@
+/* .main{
+    display: flex;
+    flex-direction: column;
+
+
+    do this if only needed
+} */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.right-head img{
+    height: 15px;
+}
+.right-head{
+    font-weight: bold;
+    margin-right: 40px;
+}
+.left-head img{
+    height: 25px;
+    margin-left: 60px;
+}
+
+
+
+.back1 img{
+    width: 1510px;
+    position: relative;
+}
+.back{
+    position: absolute;
+    font-size: 70px;
+    top: 150px;
+    left: 60px;
+    color: white;
+}
+.nwe{
+    font-size: 20px;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.subCont1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.subCont2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.book-img img{
+    height: 246px;
+}
+
+
+
+
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.sub1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sub2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+
+
+
+.game-img img{
+    height: 200px;
+}
+
+.hand-img img{
+    height: 200px;
+}
+.cont1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cont2{
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+
+.add img{
+    height: 10px;
+}
+.add button{
+    background-color: #6894ea;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 27px;
+}
+
+.book.price-tag{
+    width: 100px;
+}
+
+.price-tag{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.item-heading{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.item-sub{
+    font-size: 12px;
+    color: #858585;
+}
+
+.price{
+    font-weight: bold;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;   
+    margin-top: 60px;
+}
+.left-foot{
+    margin-left: 60px;
+}
+.right-foot{
+    text-align: right;
+    padding-right: 40px;
+    
+}
+.foot1{
+    font-size: 20px;
+}
+.foot2 img{
+    border-radius: 50%;
+    height: 100px;
+}
