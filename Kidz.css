@@ -9,6 +9,7 @@
 .header{
     display: flex;
     justify-content: space-between;
+
 }
 .right-head img{
     height: 15px;
@@ -27,6 +28,7 @@
 .back1 img{
     width: 1510px;
     position: relative;
+    max-width: 100%;
 }
 .back{
     position: absolute;
@@ -46,6 +48,7 @@
     margin-left: 60px;
     margin-top: 60px;
     margin-right: 40px;
+   
 }
 .subCont1{
     font-size: 18px;
@@ -54,6 +57,7 @@
 .subCont2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -71,6 +75,7 @@
     flex-direction: column;
     margin-left: 60px;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 .sub1{
     font-size: 18px;
@@ -80,6 +85,7 @@
     display: flex;
     justify-content: space-between;
     padding-right: 60px;
+    flex-wrap: wrap;
 }
 
 
@@ -88,6 +94,7 @@
     flex-direction: column;
     margin-left: 60px;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 
@@ -108,6 +115,7 @@
     display: flex; 
     justify-content: space-between;
     padding-right: 60px;
+    flex-wrap: wrap;
 }
 
 
@@ -129,6 +137,7 @@
 .price-tag{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -171,4 +180,31 @@
 .foot2 img{
     border-radius: 50%;
     height: 100px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .back{
+        height: 200px;
+        font-size:15px;
+        text-align: start;
+        top: 70px;       
+    }
+    .nwe{
+        font-size: 15px;        
+    }
+    
+
+
+    .subCont2{
+        flex-direction: column;
+    }
+
+    .price-tag{
+        width: 220px;
+    }
+    
+        
+    
 }
